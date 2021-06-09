@@ -9,4 +9,4 @@ const CountClick = ({handleClick, children}) => {
     )
 }
 
-export default CountClick
+export default React.memo(CountClick)

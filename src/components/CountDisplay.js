@@ -4,9 +4,9 @@ const CountDisplay = ({name, count}) => {
     console.log(`display ${name}`)
     return (
         <div>
-            {count}
+            カウント：{count}
         </div>
     )
 }
 
-export default CountDisplay
+export default React.memo(CountDisplay)
